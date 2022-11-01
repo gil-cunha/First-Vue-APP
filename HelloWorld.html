@@ -8,12 +8,16 @@
     <body>
         <div id="app">
             <p>{{ message }}</p>
+            <p>{{ summary }}</p>
         </div>
         <script>
             const myVue = new Vue(
                 {
                     el: '#app',
-                    data: { message: 'Olá, Vue.js!'}
+                    data: { 
+                        message: 'Olá, Vue.js!',
+                        summary: 'A minha primeira aplicação Vue.'
+                    }
                 }
             )
         </script>
