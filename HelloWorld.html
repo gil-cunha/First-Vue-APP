@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+    <head>
+        <title>My first Vue APP</title>
+        <meta charset="UTF-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <p>{{ message }}</p>
+        </div>
+        <script>
+            const myVue = new Vue(
+                {
+                    el: '#app',
+                    data: { message: 'Olá, Vue.js!'}
+                }
+            )
+        </script>
+    </body>
+</html>
